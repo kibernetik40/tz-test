@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green API DevOps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Green API</h2>
+
+    <input id="idInstance" placeholder="idInstance">
+    <input id="apiToken" placeholder="ApiTokenInstance">
+
+    <button onclick="getSettings()">getSettings</button>
+    <button onclick="getState()">getStateInstance</button>
+
+    <input id="phone" placeholder="Phone (777...)">
+    <textarea id="message" placeholder="Message"></textarea>
+    <button onclick="sendMessage()">sendMessage</button>
+
+    <input id="filePhone" placeholder="Phone">
+    <input id="fileUrl" placeholder="File URL">
+    <button onclick="sendFile()">sendFileByUrl</button>
+
+    <textarea id="response" readonly></textarea>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
